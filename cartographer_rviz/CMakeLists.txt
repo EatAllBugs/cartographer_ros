@@ -24,6 +24,7 @@ set(PACKAGE_DEPENDENCIES
   roslib
   rviz
 )
+set(CMAKE_CXX_STANDARD 11) 
 
 if(WIN32)
   set(Boost_USE_STATIC_LIBS FALSE)

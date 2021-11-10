@@ -20,7 +20,8 @@ set(PACKAGE_DEPENDENCIES
   geometry_msgs
   std_msgs
 )
-
+set(CMAKE_CXX_STANDARD 11)
+ 
 find_package(catkin REQUIRED COMPONENTS message_generation ${PACKAGE_DEPENDENCIES})
 
 add_message_files(
